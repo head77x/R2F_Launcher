@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity name="R2FLauncher.exe" version="1.0.0.0" publicKeyToken="0f53fe5d493df9a9" language="neutral" processorArchitecture="x86" type="win32" />
+  <description asmv2:iconFile="r2flogo.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="R2FLauncher" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="R2FLauncher.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="R2FLauncher.exe" size="4958208">
+      <assemblyIdentity name="R2FLauncher" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>mztvSMmgi87J9do6DzlZ3BDG/Q8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="r2flogo.ico" size="67646">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>ciT8Htb9WtLSit38YfqB5ACWGhQ=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=BRC\BrandonChung" issuerKeyHash="a22e669f1442ecdab83a327e08ce5e85cb2a2790" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>tFTh3LmmlUXzcEAxBOG4gAORfM8=</DigestValue></Reference></SignedInfo><SignatureValue>C8DqLB14MXDf0ON9XbpDhlC9+GCJmYbot9DIUcHYDQtFxAwoy8gKRZGQ2RxNHXliNvcLfiyz5CUczqfPW+PAZ1CQrYvS9apSfHi9vrMg2kADZv+rwT8n7dk0yi85nVv4fu1rcZX8u5YCFkn6M7bAvMY6gGT01hhVr3KUVq0+D2A=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>iJOUmUe18eMNYXJPhbKbyvLaRPf+dxtNVq3iwQHJZxLG60a2u0aMGSNKGyFwCk8q+moXYCv+U3a8zeBzAr2Vo7Fw3iBAiRi2Qb+ivxzoN4OlUsq5g1uHaB5TbH8eZwBxBI8DeCv/gbt+cwCw95QaeA77XbsatfbDmqlmWi1x0OU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="cf7c910380b8e104314070f34595a6b9dce154b4" Description="" Url=""><as:assemblyIdentity name="R2FLauncher.exe" version="1.0.0.0" publicKeyToken="0f53fe5d493df9a9" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=BRC\BrandonChung</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>yNRzGyprG5ooWGNZnfoEId3uuPc=</DigestValue></Reference></SignedInfo><SignatureValue>huknDyadGHgvM7SiRwnDojvedWNt9XIoYBCn5BdwLkWog7zxFZrpvjcrBuh64BUjG0QPQj5ui80hB/rfVuFdGYQCci9pj2EPuafsilEi8d7rdogIOg8voa//dHq9ZIh7YkylbfaRWeS2n7gln1OzbtzA8+6c2hpQbkwolbgwybY=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>iJOUmUe18eMNYXJPhbKbyvLaRPf+dxtNVq3iwQHJZxLG60a2u0aMGSNKGyFwCk8q+moXYCv+U3a8zeBzAr2Vo7Fw3iBAiRi2Qb+ivxzoN4OlUsq5g1uHaB5TbH8eZwBxBI8DeCv/gbt+cwCw95QaeA77XbsatfbDmqlmWi1x0OU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB2TCCAUKgAwIBAgIQHlBQ2u2ynatEI9R0LcsSezANBgkqhkiG9w0BAQUFADArMSkwJwYDVQQDHiAAQgBSAEMAXABCAHIAYQBuAGQAbwBuAEMAaAB1AG4AZzAeFw0xMzA4MDYwMzQ4NTdaFw0xNDA4MDYwOTQ4NTdaMCsxKTAnBgNVBAMeIABCAFIAQwBcAEIAcgBhAG4AZABvAG4AQwBoAHUAbgBnMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCIk5SZR7Xx4w1hck+FspvK8tpE9/53G01WreLBAclnEsbrRra7RowZI0obIXAKTyr6ahdgK/5TdrzN4HMCvZWjsXDeIECJGLZBv6K/HOg3g6VSyrmDW4doHlNsfx5nAHEEjwN4K/+Bu35zALD3lBp4Dvtduxq19sOaqWZaLXHQ5QIDAQABMA0GCSqGSIb3DQEBBQUAA4GBAHiL9n0y1aKYuY5aLLKizNUWiOLs7qlrX7FRWZ1njG2vVodpcbVSjviUcZajiJfJxASVKl3CyEbPRdK2uMmkJIFGR86GXBs7llb6OZAW5dimCu7MqUH1IgDq9T1k9yAefgMqDr8b/hko7a7ylGAl4mcayfqFQxKCzM5hVu5StvFb</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
