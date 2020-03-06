@@ -1,0 +1,8 @@
+c:\users\brandon\documents\visual studio 2010\Projects\R2FLauncher\R2FLauncher\bin\Debug\R2FLauncher.exe
+c:\users\brandon\documents\visual studio 2010\Projects\R2FLauncher\R2FLauncher\bin\Debug\R2FLauncher.pdb
+c:\users\brandon\documents\visual studio 2010\Projects\R2FLauncher\R2FLauncher\obj\x86\Debug\R2FLauncher.Form1.resources
+c:\users\brandon\documents\visual studio 2010\Projects\R2FLauncher\R2FLauncher\obj\x86\Debug\R2FLauncher.Properties.Resources.resources
+c:\users\brandon\documents\visual studio 2010\Projects\R2FLauncher\R2FLauncher\obj\x86\Debug\R2FLauncher.csproj.GenerateResource.Cache
+c:\users\brandon\documents\visual studio 2010\Projects\R2FLauncher\R2FLauncher\obj\x86\Debug\R2FLauncher.exe
+c:\users\brandon\documents\visual studio 2010\Projects\R2FLauncher\R2FLauncher\obj\x86\Debug\R2FLauncher.pdb
+C:\Users\Brandon\documents\visual studio 2010\Projects\R2FLauncher\R2FLauncher\obj\x86\Debug\R2FLauncher.csprojResolveAssemblyReference.cache
